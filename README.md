@@ -51,7 +51,7 @@ For more information, visit the creator's page: https://www.lazyvim.org/
 
 2. **Clone the starter:**
 
-   bash
+   ```bash
    git clone https://github.com/LazyVim/starter ~/.config/nvim
    
 2. **Remove the .git folder, so you can add it to your own repo later:**
