@@ -1,5 +1,5 @@
 # Neovim Configuration linux
-![image](https://github.com/user-attachments/assets/07668f65-4509-41a0-a59c-db8981d2bee6)
+![imagen](https://github.com/user-attachments/assets/021ae78d-7588-4dd8-a57e-1d530bb91681)
 
 
 ## Configuration File for Neovim
