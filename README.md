@@ -77,7 +77,8 @@ Clone the repository into the Neovim configuration directory, make sure you have
 Once the cloning is complete, you can open nvim by entering `nvim` in the terminal.
 When nvim is opened for the first time, the plugins added in the configuration will be loaded, which may take a few minutes.
 
-# Configure Transparency in Neovim:
+# Configure Transparency
+1. **Cofigure transparency in Neovim:**
 You can enable transparency by executing the following command within Neovim:
     ```bash
     :TransparentEnable
