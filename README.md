@@ -81,7 +81,7 @@ When nvim is opened for the first time, the plugins added in the configuration w
 You can enable transparency by executing the following command within Neovim:
     ```bash
     :TransparentEnable
-    ```
+    
 
 Note: Transparency in Neovim depends on the transparency settings of the terminal you are using. Refer to your terminal's documentation to enable transparency.
 
