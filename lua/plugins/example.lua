@@ -33,9 +33,12 @@ return {
   -- override nvim-cmp and add cmp-emoji
   {
     "hrsh7th/nvim-cmp",
-    dependencies = { "hrsh7th/cmp-emoji" },
+    dependencies = {
+      "hrsh7th/cmp-emoji", -- Autocompletado de emojis
+    },
     ---@param opts cmp.ConfigSchema
     opts = function(_, opts)
+      -- Añadir la fuente de emoji
       table.insert(opts.sources, { name = "emoji" })
     end,
   },
@@ -64,17 +67,17 @@ return {
   },
 
   -- add pyright to lspconfig
-  {
-    "neovim/nvim-lspconfig",
-    ---@class PluginLspOpts
-    opts = {
-      ---@type lspconfig.options
-      servers = {
-        -- pyright will be automatically installed with mason and loaded with lspconfig
-        pyright = {},
-      },
-    },
-  },
+  -- {
+  --   "neovim/nvim-lspconfig",
+  --   ---@class PluginLspOpts
+  --   opts = {
+  --     ---@type lspconfig.options
+  --     servers = {
+  --       -- pyright will be automatically installed with mason and loaded with lspconfig
+  --       --pyright = {},
+  --     },
+  --   },
+  -- },
 
   -- add tsserver and setup with typescript.nvim instead of lspconfig
   {
@@ -122,6 +125,7 @@ return {
       ensure_installed = {
         "bash",
         "html",
+        "css",
         "javascript",
         "json",
         "lua",
