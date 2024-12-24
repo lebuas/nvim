@@ -1,6 +1,5 @@
 local lspconfig = require("lspconfig")
 local cmp_nvim_lsp = require("cmp_nvim_lsp")
-local cmp = require("cmp")
 
 -- --Configura `ruff` si lo necesitas para linting
 -- lspconfig.ruff.setup({

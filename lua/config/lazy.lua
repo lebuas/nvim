@@ -26,6 +26,7 @@ require("lazy").setup({
     -- { import = "plugins.transparent" },
 
     { "neovim/nvim-lspconfig" },
+    { "hrsh7th/cmp-nvim-lsp" },
     { "echasnovski/mini.nvim" },
     -- { "terryma/vim-multiple-cursors" }, -- pugin para multiple linea
 
